@@ -21,4 +21,4 @@ class MyClient(discord.Client):
 
 
 client = MyClient()
-client.run("Here could stand your BotID.")
+client.run("YOUR_CLIENT_ID_HERE")
