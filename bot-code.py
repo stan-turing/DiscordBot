@@ -88,7 +88,7 @@ help=('''```###################################
 ```''')
 
 
-final=['"WUUUHHHUUUU!!!! Geschafft! :partying_face: "','"Nice! :thumbsup:"','"Yay! :smile:"']
+final=['WUUUHHHUUUU!!!! Geschafft! :partying_face: ','Nice! :thumbsup:','Yay! :smile:']
 
 class MyClient(discord.Client):
     async def on_ready(self):
