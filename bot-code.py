@@ -73,21 +73,23 @@ Quelle: https://www.tvdigital.de/entertainment/toplisten/filmzitate''']
 
 
 help=('''
-###########################################\n
-|          Hier ist eine Info zu          |\n
-|     V   den Befehlen für den Bot! V     |\n
-###########################################\n
-|      !help = Info zu Bot Befehlen       |\n
-|      zitat = zufälliges Filmzitat       |\n
-|     izitat = Hintergrunginfo mit        |\n
-|              zufälligem Filmzitat       |\n
-|      Es gibt noch mehr Befehle,         |\n
-|         finde diese heraus!             |\n
-|              Viel Spaß! :)              |\n
-###########################################\n
+#####################
+|     Hier ist eine Info zu                 |
+| V den Befehlen für den Bot! V  | 
+#####################
+|  !help = Info zu Bot Befehlen     |
+|   zitat = zufälliges Filmzitat       |
+|  izitat = Hintergrunginfo mit     |
+|          zufälligem Filmzitat           |
+|!finally = Lass den Bot                 |
+|          sich freuen!                          | 
+|   Es gibt noch mehr Befehle,      |
+|      finde diese heraus!                 |
+|          Viel Spaß! :)                         | 
+#####################
 ''')
 
-
+final=['"WUUUHHHUUUU!!!! Geschafft! :partying_face: "','"Nice! :thumbsup:"','"Yay! :smile:"']
 
 class MyClient(discord.Client):
     async def on_ready(self):
@@ -116,6 +118,9 @@ class MyClient(discord.Client):
 
         if message.content.startswith("!help"):
             await message.channel.send(help)
+
+        if message.content.startswith("!finally"):
+            await message.channel.send(random.choice(final))
 
 client = MyClient()
 client.run("YOUR_CLIENT_ID_HERE")
