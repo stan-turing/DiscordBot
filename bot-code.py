@@ -71,23 +71,22 @@ Quelle: https://www.tvdigital.de/entertainment/toplisten/filmzitate''','''"Wie w
 Quelle: https://www.tvdigital.de/entertainment/toplisten/filmzitate''','''Subtil geht es bei der Blödel-Orgie "American Pie" nie zu. Da wundert auch dieser Spruch aus dem zweiten Teil nicht: "Du kannst nicht einfach drauflos fummeln. Du musst den Ofen einheizen, bevor Du den Truthahn reinstellst". (USA 1999)
 Quelle: https://www.tvdigital.de/entertainment/toplisten/filmzitate''']
 
+help=('''```###################################
+|      Hier ist eine Info zu      |
+|   V den Befehlen für den Bot! V | 
+###################################
+|    !help = Info zu Bot Befehlen |
+|    zitat = zufälliges Filmzitat |
+|   izitat = Hintergrunginfo mit  |
+|            zufälligem Filmzitat |
+| !finally = Lass den Bot         |
+|            sich freuen!         |     
+|    Es gibt noch mehr Befehle,   |
+|      finde diese heraus!        |
+|          Viel Spaß! :)          |
+###################################
+```''')
 
-help=('''
-#####################
-|     Hier ist eine Info zu                 |
-| V den Befehlen für den Bot! V  | 
-#####################
-|  !help = Info zu Bot Befehlen     |
-|   zitat = zufälliges Filmzitat       |
-|  izitat = Hintergrunginfo mit     |
-|          zufälligem Filmzitat           |
-|!finally = Lass den Bot                 |
-|          sich freuen!                          | 
-|   Es gibt noch mehr Befehle,      |
-|      finde diese heraus!                 |
-|          Viel Spaß! :)                         | 
-#####################
-''')
 
 final=['"WUUUHHHUUUU!!!! Geschafft! :partying_face: "','"Nice! :thumbsup:"','"Yay! :smile:"']
 
